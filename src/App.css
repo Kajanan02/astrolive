@@ -149,3 +149,7 @@
 .cursor-pointer {
     cursor: pointer !important;
 }
+.footer-icons:hover{
+    color: var(--primary);
+    transition: 0.5s ease-in-out;
+}

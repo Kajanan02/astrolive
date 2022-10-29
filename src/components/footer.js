@@ -59,15 +59,15 @@ export default function Footer(props) {
                     </div>
                 </div>
                 <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                    <p className={"fw-bold"}>&copy; 2022 AstroLive Company, Inc. All rights reserved.</p>
+                    <p className={"fw-bold footer-icons"}>&copy; 2022 AstroLive Company, Inc. All rights reserved.</p>
                     <ul className="list-unstyled d-flex">
-                        <FeatherIcon className={"cursor-pointer me-3"}
+                        <FeatherIcon className={"cursor-pointer footer-icons me-3"}
                                      icon="facebook"/>
-                        <FeatherIcon className={"cursor-pointer me-3"}
+                        <FeatherIcon className={"cursor-pointer footer-icons me-3"}
                                      icon="twitter"/>
-                        <FeatherIcon className={"cursor-pointer me-3"}
+                        <FeatherIcon className={"cursor-pointer footer-icons me-3"}
                                      icon="linkedin"/>
-                        <FeatherIcon className={"cursor-pointer me-3"}
+                        <FeatherIcon className={"cursor-pointer footer-icons me-3"}
                                      icon="instagram"/>
                     </ul>
                 </div>
