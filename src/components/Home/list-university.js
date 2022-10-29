@@ -1,10 +1,10 @@
 import React from 'react';
-import university01 from "./images/universities/01.jpg"
-import university02 from "./images/universities/02.jpg"
-import university03 from "./images/universities/03.jpg"
-import university04 from "./images/universities/04.webp"
-import university05 from "./images/universities/05.jpg"
-import university06 from "./images/universities/06.jpg"
+import university01 from "../../images/universities/01.jpg"
+import university02 from "../../images/universities/02.jpg"
+import university03 from "../../images/universities/03.jpg"
+import university04 from "../../images/universities/04.webp"
+import university05 from "../../images/universities/05.jpg"
+import university06 from "../../images/universities/06.jpg"
 
 export default function ListUniversity(props) {
 

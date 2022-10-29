@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import hostel01 from "./images/hotels/01.webp"
-import hostel02 from "./images/hotels/02.webp"
-import hostel03 from "./images/hotels/03.webp"
-import hostel04 from "./images/hotels/04.webp"
-import hostel05 from "./images/hotels/05.webp"
-import hostel06 from "./images/hotels/06.jpg"
-import hostel07 from "./images/hotels/07.webp"
-import hostel08 from "./images/hotels/08.webp"
-import {db} from "./firebase-config"
+import hostel01 from "../../images/hotels/01.webp"
+import hostel02 from "../../images/hotels/02.webp"
+import hostel03 from "../../images/hotels/03.webp"
+import hostel04 from "../../images/hotels/04.webp"
+import hostel05 from "../../images/hotels/05.webp"
+import hostel06 from "../../images/hotels/06.jpg"
+import hostel07 from "../../images/hotels/07.webp"
+import hostel08 from "../../images/hotels/08.webp"
+import {db} from "../utils/firebase-config"
 import {collection, getDocs} from "firebase/firestore"
 import HostelCard from "./hostel-card";
 

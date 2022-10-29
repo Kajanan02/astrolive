@@ -7,7 +7,7 @@ function Navbar(props) {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light border-bottom">
                 <div className={"container"}>
-                    <a className="navbar-brand color-primary logo-txt" href="#"> <FeatherIcon
+                    <a className="navbar-brand color-primary logo-txt" href="astrolive/src/components/navbar#"> <FeatherIcon
                         className={"color-primary"}
                         icon="archive"/> AstroLive</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -19,13 +19,13 @@ function Navbar(props) {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto ms-auto">
                             <li className="nav-item  fw-bold">
-                                <a className="nav-link" href="#">Hosting </a>
+                                <a className="nav-link" href="astrolive/src/components/navbar#">Hosting </a>
                             </li>
                             <li className="nav-item fw-bold">
-                                <a className="nav-link" href="#">Link</a>
+                                <a className="nav-link" href="astrolive/src/components/navbar#">Link</a>
                             </li>
                             <li className="nav-item fw-bold">
-                                <a className="nav-link " href="#">Login</a>
+                                <a className="nav-link " href="astrolive/src/components/navbar#">Login</a>
                             </li>
                         </ul>
 
