@@ -149,7 +149,70 @@
 .cursor-pointer {
     cursor: pointer !important;
 }
-.footer-icons:hover{
+
+.footer-icons:hover {
     color: var(--primary);
     transition: 0.5s ease-in-out;
 }
+
+.container-box {
+    margin-top: 88px;
+}
+
+.option-btn {
+    border-radius: 8px;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+    padding: 16px;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.host-container {
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.select-btn {
+    border-color: transparent;
+    box-shadow: 0 0 0 2px #000;
+    background-color: #F7F7F7;
+}
+.drag-drop{
+    border: 1px dashed rgb(176, 176, 176) !important;
+    border-radius: 12px;
+    height: 300px;
+    width: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 56px auto;
+}
+
+.price-container{
+    border: 1px solid rgb(221, 221, 221) !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+    height: 240px;
+    padding: 56px;
+    background-color: rgb(247, 247, 247) !important;
+    max-width: 720px;
+    margin: 56px auto;
+}
+.img-remove-btn{
+    background: white;
+    border-radius: 100%;
+    padding: 6px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    right: -10px;
+    top: -10px;
+}
+
+
