@@ -6,6 +6,7 @@ import Home from "./components/Home/home";
 import {Route, Routes} from "react-router-dom";
 import BoardingAdd from "./components/Boarding-add/boarding-add";
 import BecomeHost from "./components/Boarding-add/become-host";
+import BoardingView from "./components/boarding-view";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/become-a-host" element={<BecomeHost/>}/>
                 <Route path="/host" element={<BoardingAdd/>}/>
+                <Route path="/boarding-view" element={<BoardingView/>}/>
 
             </Routes>
 

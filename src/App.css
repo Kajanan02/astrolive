@@ -180,7 +180,8 @@
     box-shadow: 0 0 0 2px #000;
     background-color: #F7F7F7;
 }
-.drag-drop{
+
+.drag-drop {
     border: 1px dashed rgb(176, 176, 176) !important;
     border-radius: 12px;
     height: 300px;
@@ -193,7 +194,7 @@
     margin: 56px auto;
 }
 
-.price-container{
+.price-container {
     border: 1px solid rgb(221, 221, 221) !important;
     border-radius: 12px !important;
     display: flex !important;
@@ -206,13 +207,30 @@
     max-width: 720px;
     margin: 56px auto;
 }
-.img-remove-btn{
+
+.img-remove-btn {
     background: white;
     border-radius: 100%;
     padding: 6px;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
     right: -10px;
     top: -10px;
+}
+
+.boarding-view-layout {
+    margin: 100px 0;
+}
+
+.img-layout {
+    height: calc(60vh - 64px);
+}
+
+.img-01 {
+    height: calc(30vh - 64px);
+}
+
+.hd {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
 }
 
 
